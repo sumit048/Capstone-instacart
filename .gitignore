@@ -1,0 +1,34 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+venv39/
+
+# VS Code config
+.vscode/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Dataset files
+*.csv
+*.db
+!instacart.db
+*.sqlite
+*.h5
+data/orders.csv
+data/order_products__prior.csv
+
+# Model artifacts
+*.joblib
+!model.joblib
+
+# Logs
+*.log
+
+# OS system files
+.DS_Store
+Thumbs.db 
